@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Wylosowane liczy to:</h1>
+
+    <ol>
+
+        <li th:each="number:${digits}" th:text="${number}"></li>
+
+
+    </ol>
+
+
+</body>
+</html>
